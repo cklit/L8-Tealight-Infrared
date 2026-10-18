@@ -1,0 +1,12 @@
+{
+  "domain": "l8_infrared",
+  "name": "L8 Infrared",
+  "codeowners": ["@cklit"],
+  "config_flow": true,
+  "dependencies": ["infrared"],
+  "documentation": "https://github.com/cklit/l8_infrared",
+  "integration_type": "device",
+  "iot_class": "assumed_state",
+  "issue_tracker": "https://github.com/cklit/l8_infrared/issues",
+  "version": "0.1.0"
+}

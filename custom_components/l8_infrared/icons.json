@@ -1,0 +1,28 @@
+{
+  "entity": {
+    "button": {
+      "brightness_down": { "default": "mdi:brightness-5" },
+      "brightness_up": { "default": "mdi:brightness-7" },
+      "timer_2h": { "default": "mdi:timer" },
+      "timer_4h": { "default": "mdi:timer" },
+      "timer_6h": { "default": "mdi:timer" },
+      "timer_8h": { "default": "mdi:timer" }
+    },
+    "event": {
+      "received_command": { "default": "mdi:remote" }
+    },
+    "light": {
+      "light": {
+        "default": "mdi:candle",
+        "state_attributes": {
+          "effect": {
+            "state": {
+              "candle": "mdi:candle",
+              "light": "mdi:lightbulb-on"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "config": {
+    "abort": {
+      "already_configured": "An L8 device is already set up with this infrared entity.",
+      "no_infrared_entities": "No infrared emitters or receivers found. Set up an infrared device (e.g. ESPHome) first.",
+      "reconfigure_successful": "Reconfiguration was successful."
+    },
+    "error": {
+      "missing_infrared_entity": "Select an infrared emitter or receiver."
+    },
+    "step": {
+      "user": {
+        "title": "Set up L8 candle",
+        "description": "Select at least one infrared emitter or receiver.",
+        "data": {
+          "infrared_entity_id": "Infrared emitter",
+          "infrared_receiver_entity_id": "Infrared receiver"
+        },
+        "data_description": {
+          "infrared_entity_id": "Used to send commands to the candles.",
+          "infrared_receiver_entity_id": "Used to detect presses on the physical remote."
+        }
+      },
+      "reconfigure": {
+        "title": "Reconfigure L8 candle",
+        "data": {
+          "infrared_entity_id": "Infrared emitter",
+          "infrared_receiver_entity_id": "Infrared receiver"
+        },
+        "data_description": {
+          "infrared_entity_id": "Used to send commands to the candles.",
+          "infrared_receiver_entity_id": "Used to detect presses on the physical remote."
+        }
+      }
+    }
+  },
+  "entity": {
+    "button": {
+      "brightness_down": { "name": "Dim down" },
+      "brightness_up": { "name": "Dim up" },
+      "timer_2h": { "name": "Timer 2h" },
+      "timer_4h": { "name": "Timer 4h" },
+      "timer_6h": { "name": "Timer 6h" },
+      "timer_8h": { "name": "Timer 8h" }
+    },
+    "event": {
+      "received_command": {
+        "name": "Remote",
+        "state_attributes": {
+          "event_type": {
+            "state": {
+              "on": "On",
+              "off": "Off",
+              "timer_2h": "Timer 2h",
+              "timer_4h": "Timer 4h",
+              "timer_6h": "Timer 6h",
+              "timer_8h": "Timer 8h",
+              "candle": "Candle",
+              "light": "Light",
+              "brightness_down": "Dim down",
+              "brightness_up": "Dim up"
+            }
+          }
+        }
+      }
+    },
+    "light": {
+      "light": {
+        "state_attributes": {
+          "effect": {
+            "state": {
+              "candle": "Candle",
+              "light": "Steady light"
+            }
+          }
+        }
+      }
+    }
+  }
+}
