@@ -21,6 +21,8 @@ BUTTONS = [
     L8Code.TIMER_4H,
     L8Code.TIMER_6H,
     L8Code.TIMER_8H,
+    L8Code.CANDLE,
+    L8Code.LIGHT,
 ]
 
 

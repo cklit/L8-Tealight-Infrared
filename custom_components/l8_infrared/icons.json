@@ -6,7 +6,9 @@
       "timer_2h": { "default": "mdi:timer" },
       "timer_4h": { "default": "mdi:timer" },
       "timer_6h": { "default": "mdi:timer" },
-      "timer_8h": { "default": "mdi:timer" }
+      "timer_8h": { "default": "mdi:timer" },
+      "candle": { "default": "mdi:candle" },
+      "light": { "default": "mdi:lightbulb-on" }
     },
     "event": {
       "received_command": { "default": "mdi:remote" }
