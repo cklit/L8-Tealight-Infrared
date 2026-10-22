@@ -4,9 +4,9 @@
   "codeowners": ["@cklit"],
   "config_flow": true,
   "dependencies": ["infrared"],
-  "documentation": "https://github.com/cklit/l8_infrared",
+  "documentation": "https://github.com/cklit/L8-Tealight-Infrared",
   "integration_type": "device",
   "iot_class": "assumed_state",
-  "issue_tracker": "https://github.com/cklit/l8_infrared/issues",
-  "version": "0.1.1"
+  "issue_tracker": "https://github.com/cklit/L8-Tealight-Infrared/issues",
+  "version": "2026.10.22"
 }

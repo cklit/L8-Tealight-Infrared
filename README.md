@@ -12,7 +12,7 @@ Requires a Home Assistant version with the `infrared` integration.
 
 ## Install
 
-HACS → three-dot menu → Custom repositories → add `https://github.com/cklit/l8_infrared`, type Integration. Install, restart Home Assistant, then add L8 Infrared under Settings → Devices & services.
+HACS → three-dot menu → Custom repositories → add `https://github.com/cklit/L8-Tealight-Infrared`, type Integration. Install, restart Home Assistant, then add L8 Infrared under Settings → Devices & services.
 
 ## IR codes
 
